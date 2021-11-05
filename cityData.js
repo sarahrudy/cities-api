@@ -320,5 +320,5 @@ export const cityData = {
         "population_change_since_2020": "\"-2.6%\"",
         "city_blurb": "Showing true New Jersey grit, Trenton once again makes an appearance on the index after falling off in 2019. Advertising for nearly 13,000 technology jobs in the past 12 months, the tech economy is on the rise—and the city's location is the biggest draw. Located in central New Jersey on the Delaware River, Trenton is easily accessible to both New York and Philadelphia. </br> That easy access means that Trenton residents may work outside the city and vice versa. In any case, IT jobs in this area are expected to grow by 5% within the next five years. In the capital city, software and app developers along with computer systems analysts are the most in-demand technology jobs—accounting for more than 5,000 of the IT jobs advertised in the area. Bank of America continues to be the top employer posting IT jobs in Trenton, but software consulting firms ZS Associates and DEW Softech are recruiting tech talent this year as well. </br> With Trenton tech talent making a healthy median income of $94,997, the cost of living, which is 23% higher than the U.S. norm, is significantly cheaper than neighboring New York City as well as Tech Towns Boston and Baltimore."
     }
-]
-
+  ]
+}
