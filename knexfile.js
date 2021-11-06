@@ -3,7 +3,7 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: 'pg',
     connection: 'postgres://localhost/cities',
     migrations: {
       directory: './db/migrations'
@@ -31,14 +31,10 @@ module.exports = {
   // },
 
   production: {
-    client: 'postgresql',
-    connection: process.env.DATABASE_URL + '?ssl=true',
-    ssl: { rejectUnauthorized: false },
+    client: 'pg',
+    connection: process.env.DATABASE_URL + `?ssl=true`,
     migrations: {
       directory: './db/migrations'
-    },
-    seeds: {
-      directory: './db/seeds/dev'
     },
     useNullAsDefault: true
   }
