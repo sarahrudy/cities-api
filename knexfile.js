@@ -32,7 +32,7 @@ module.exports = {
 
   production: {
     client: 'postgresql',
-     connection: process.env.HEROKU_POSTGRESQL_NAVY_URL + '?ssl=true',
+     connection: connection: process.env.DATABASE_URL + '?ssl=true',
     migrations: {
       directory: './db/migrations'
     },
