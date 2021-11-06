@@ -3,10 +3,8 @@ const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const cors = require('cors');
 
-
 const express = require('express');
 const app = express();
-
 
 app.set('port', process.env.PORT || 3001);
 app.use(cors());
