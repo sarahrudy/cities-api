@@ -34,10 +34,10 @@ module.exports = {
     client: 'postgresql',
      connection: process.env.HEROKU_POSTGRESQL_NAVY_URL + '?ssl=true',
     migrations: {
-      directory: './db/v1/migrations'
+      directory: './db/migrations'
     },
     seeds: {
-      directory: './db/v1/seeds/dev'
+      directory: './db/seeds/dev'
     },
     useNullAsDefault: true
   }
