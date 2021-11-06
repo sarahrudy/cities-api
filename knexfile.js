@@ -3,11 +3,7 @@
 module.exports = {
 
   development: {
-    // client: 'sqlite3',
     client: 'postgresql',
-    // connection: {
-    //   filename: './dev.sqlite3'
-    // }
     connection: 'postgres://localhost/cities',
     migrations: {
       directory: './db/migrations'

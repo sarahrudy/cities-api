@@ -11,18 +11,13 @@ app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Cities';
 
 app.get('/', (request, response) => {
-  response.send('Cities will show up here!');
-});
+  response.json('Welcome to our API')
+})
 
-app.get('/cities', (request, response) => {
-  const cities = app.locals.cities;
-
-  response.json({ cities });
-});
-
-app.get('/api/v1/cities', async (request, response) => {
+app.get('/cities', async (request, response) => {
   try {
     const cities = await database('cities').select();
+    console.log(cities)
     response.status(200).json(cities);
   } catch(error) {
     response.status(500).json({ error });
