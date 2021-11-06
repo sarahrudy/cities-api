@@ -1,15 +1,17 @@
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
+const cors = require('cors');
 
-// process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 const express = require('express');
 const app = express();
 
-app.use(express.json());
 
 app.set('port', process.env.PORT || 3001);
+app.use(cors());
+app.use(express.json());
+
 app.locals.title = 'Cities';
 
 app.get('/', (request, response) => {
