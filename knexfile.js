@@ -1,7 +1,3 @@
-// const parse = require('pg-connection-string').parse
-// const pgconfig = parse(process.env.DATABASE_URL)
-// pgconfig.ssl = { rejectUnauthorized: false }
-
 module.exports = {
   development: {
     client: 'pg',

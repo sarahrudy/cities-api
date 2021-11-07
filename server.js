@@ -17,7 +17,6 @@ app.get('/', (request, response) => {
 app.get('/cities', async (request, response) => {
   try {
     const cities = await database('cities').select();
-    console.log(cities)
     response.status(200).json(cities);
   } catch(error) {
     response.status(500).json({ error });
