@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (request, response) => {
-  response.json('Welcome to our API')
+  response.json('Welcome to our softWhere? Cities API. Please add '/cities' to the URL to access data.')
 })
 
 app.get('/cities', async (request, response) => {
@@ -30,7 +30,7 @@ app.get('/cities/:id', async (request, response) => {
       response.status(200).json(cities);
     } else {
       response.status(404).json({
-        error: `Could not find paper with id ${request.params.id}`
+        error: `Could not find a city with id ${request.params.id}`
       });
     }
   } catch (error) {
@@ -41,4 +41,3 @@ app.get('/cities/:id', async (request, response) => {
 app.listen(app.get('port'), () => {
   console.log(`Cities is running on http://localhost:${app.get('port')}.`);
 });
-
