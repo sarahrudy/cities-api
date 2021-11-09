@@ -4,11 +4,11 @@ This is the repository for the API of our softWhere? React app.  To learn more a
 
 ## Project Repo
 [softWhere? GitHub Repository](https://github.com/sarahrudy/i-wanna-live-there) </br>
-[softWhere API Repository](https://github.com/sarahrudy/cities-api/tree/main)
+[softWhere API Repository](https://github.com/sarahrudy/cities-api/)
 
 
 ## Deployed Link
-[softWhere API](https://softwhere-api.herokuapp.com/cities)
+[softWhere API](https://softwhere-api.herokuapp.com/)
 
 
 ## Contributors
