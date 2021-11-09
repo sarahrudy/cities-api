@@ -1,14 +1,14 @@
 # softWhere? API
-This is the repository for the API of our softWhere? React app.  To learn more about the application head over to [softWhere? GitHub Repository](https://github.com/sarahrudy/i-wanna-live-there)
+This is the repository for the API of our softWhere? React app.  To learn more about the application head over to [softWhere? Front-End App GitHub Repository](https://github.com/sarahrudy/i-wanna-live-there)
 
 
 ## Project Repo
 [softWhere? GitHub Repository](https://github.com/sarahrudy/i-wanna-live-there) </br>
-[softWhere API Repository](https://github.com/sarahrudy/i-wanna-live-there-api)
+[softWhere API Repository](https://github.com/sarahrudy/cities-api/tree/main)
 
 
 ## Deployed Link
-[softWhere API](https://climate-1.herokuapp.com/news)
+[softWhere API](https://softwhere-api.herokuapp.com/cities)
 
 
 ## Contributors
